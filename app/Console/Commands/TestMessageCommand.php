@@ -20,7 +20,7 @@ class TestMessageCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'app:test-message-command {type} {body} {receiver} {channel=messages} {action?}';
+    protected $signature = 'app:test-message-command {channel} {type} {body} {receiver} {action?}';
 
     /**
      * The console command description.

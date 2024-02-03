@@ -2,7 +2,7 @@
 
 namespace App\Messages;
 
-interface BaseMessage
+interface IMessage
 {
     public function getChannel(): string;
     public function getType(): string;

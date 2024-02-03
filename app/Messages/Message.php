@@ -2,7 +2,7 @@
 
 namespace App\Messages;
 
-class Message implements BaseMessage
+class Message implements IMessage
 {
     private string $channel;
     private string $type;
