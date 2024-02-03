@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="MyStandard">
+    <description>My coding standard.</description>
+
+    <!-- Use PSR-12 as base standard -->
+    <rule ref="PSR12">
+        <exclude name="PSR12.Classes.ClassInstantiation.MissingParentheses"/>
+        <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBeforeComma"/>
+    </rule>
+
+    <!-- Paths to check -->
+    <file>app</file>
+
+    <arg name="colors"/>
+    <arg value="p"/>
+</ruleset>

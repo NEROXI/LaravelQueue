@@ -8,7 +8,7 @@ RUN apt-get update && apt-get upgrade -y
 
 
 # Установка Apache, PHP и зависимостей
-RUN apt-get install -y curl nano apache2 php libapache2-mod-php php-pgsql php-mbstring php-curl php-json php-gd php-xml php-cli unzip
+RUN apt-get install -y curl nano apache2 php libapache2-mod-php php-pgsql php-mbstring php-curl php-json php-gd php-xml php-cli unzip php-redis
 
 # Установка Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
