@@ -23,7 +23,7 @@ class MessageNotification extends Notification
 
     public function via(): array
     {
-        return ['mail'];
+        return [$this->message->getType()];
     }
 
     /**
